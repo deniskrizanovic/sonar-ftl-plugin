@@ -1,0 +1,238 @@
+<profile>
+    <name>All Rules Profile</name>
+    <language>ftl</language>
+    <rules>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>AttributeValidationCheck</key>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>AvoidHtmlCommentCheck</key>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>DynamicJspIncludeCheck</key>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>HeaderCheck</key>
+            <parameters>
+                <parameter>
+                    <key>expression</key>
+                    <value>^.*Copyright.*$</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>IllegalTagLibsCheck</key>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>InlineStyleCheck</key>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>InternationalizationCheck</key>
+            <parameters>
+                <parameter>
+                    <key>attributes</key>
+                    <value>outputLabel.value, outputText.value</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>JspScriptletCheck</key>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>LibraryDependencyCheck</key>
+            <parameters>
+                <parameter>
+                    <key>libraries</key>
+                    <value>java.sql,javax.sql</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>LongJavaScriptCheck</key>
+            <parameters>
+                <parameter>
+                    <key>maxLines</key>
+                    <value>5</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>MultiplePageDirectivesCheck</key>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>UnifiedExpressionCheck</key>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>WhiteSpaceAroundCheck</key>
+        </rule>
+
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>FileLengthCheck</key>
+        </rule>
+
+
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>ComplexityCheck</key>
+            <parameters>
+                <parameter>
+                    <key>max</key>
+                    <value>12</value>
+                </parameter>
+                <parameter>
+                    <key>tags</key>
+                    <value>#if, #else, #elseif, #switch, #case, #attempt, #recover</value>
+                </parameter>
+                <parameter>
+                    <key>operators</key>
+                    <value>&amp;&amp;, ||, !</value>
+                </parameter>
+            </parameters>
+        </rule>
+
+
+        <rule>
+
+
+            <repositoryKey>ftl</repositoryKey>
+            <key>DocTypeCheck</key>
+            <parameters>
+                <parameter>
+                    <key>dtd</key>
+                    <value>http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>DoubleQuotesCheck</key>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>IllegalAttributeCheck</key>
+            <!-- see http://www.w3.org/TR/REC-html40/index/attributes.html -->
+            <parameters>
+                <parameter>
+                    <key>attributes</key>
+                    <value>CAPTION.align, IFRAME.align, IMG.align, INPUT.align, OBJECT.align,
+                        LEGEND.align, TABLE.align, HR.align,
+                        DIV.align, H1.align, H2.align, H3.align, H4.align, H5.align, H6.align, P.align,
+                        alink, background, bgcolor,
+                        IMG.border, OBJECT.border, clear, color, compact, face, hspace, TD.height, TH.height,
+                        language, link,
+                        noshade, nowrap, HR.size, FONT.size, start, text, LI.type, OL.type, UL.type, LI.value,
+                        version,
+                        HR.width,
+                        PRE.width, TD.width, TH.width
+                    </value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>IllegalElementCheck</key>
+            <!-- see http://www.w3.org/TR/REC-html40/index/elements.html -->
+            <parameters>
+                <parameter>
+                    <key>elements</key>
+                    <value>applet, basefont, center, dir, font, isindex, menu, s, strike, u</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>IllegalNamespaceCheck</key>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>IllegalTabCheck</key>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>MaxLineLengthCheck</key>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>RequiredElementCheck</key>
+            <parameters>
+                <parameter>
+                    <key>elements</key>
+                    <value>html</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>RequiredAttributeCheck</key>
+            <parameters>
+                <parameter>
+                    <key>attributes</key>
+                    <value>img.alt,script.type</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>RegularExpressionCheck</key>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>UnclosedTagCheck</key>
+            <parameters>
+                <parameter>
+                    <key>ignoreTags</key>
+                    <value>verbatim</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>ChildElementRequiredCheck</key>
+            <parameters>
+                <parameter>
+                    <key>parent</key>
+                    <value>head</value>
+                </parameter>
+                <parameter>
+                    <key>child</key>
+                    <value>title</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>ChildElementIllegalCheck</key>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>ParentElementRequiredCheck</key>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>ParentElementIllegalCheck</key>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>OGNLExpressionCheck</key>
+        </rule>
+        <rule>
+            <repositoryKey>ftl</repositoryKey>
+            <key>AvoidCommentedOutCodeCheck</key>
+        </rule>
+    </rules>
+
+</profile>
