@@ -38,7 +38,7 @@ public class ComplexityCheckTest extends AbstractCheckTester {
     FileReader reader = new FileReader("src/test/resources/src/main/freemarker/macros/complexity1.ftl");
     FtlSourceCode sourceCode = parseAndCheck(reader, ComplexityCheck.class, "max", "15");
 
-    assertEquals("Incorrect number of complexity", 17, sourceCode.getMeasure(CoreMetrics.COMPLEXITY).getIntValue().intValue());
-    assertEquals("Incorrect number of violations", 1, sourceCode.getViolations().size());
+    assertEquals("Incorrect number of complexity", 6, sourceCode.getMeasure(CoreMetrics.COMPLEXITY).getIntValue().intValue());
+    assertEquals("Incorrect number of violations", 0, sourceCode.getViolations().size());
   }
 }
