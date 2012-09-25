@@ -35,6 +35,8 @@ public class ComplexityCheckTest extends AbstractCheckTester {
   @Test
   public void violateComplexityCheck() throws FileNotFoundException {
 
+
+    // random comment
     FileReader reader = new FileReader("src/test/resources/src/main/freemarker/macros/complexity1.ftl");
     FtlSourceCode sourceCode = parseAndCheck(reader, ComplexityCheck.class, "max", "15");
 
